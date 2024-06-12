@@ -1,0 +1,81 @@
+/* Zerando a formatação do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "EB Garamond", serif;
+}
+
+/* Formatação padrão das páginas */
+.pagina-padrao {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.logotipo {
+    height: 50px;
+}
+
+/* MENU */
+header {
+    background-color: #A79277;
+    color: #FFF2E1;
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF2E1;
+}
+
+a:hover {
+    color: #D1BB9E;
+}
+
+.active {
+    font-weight: bold;
+}
+
+/* CONTEÚDO */
+main {
+    padding: 20px;
+    background-color: #FFF2E1;
+    color: #A79277;
+    height: calc(100vh - 100px);
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+/* RODAPÉ */
+footer {
+    background-color: #A79277;
+    color: #FFF2E1;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,21 @@
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+.boas-vindas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.boas-vindas {
+    font-size: x-large;
+}
+
+.boas-vindas p {
+    margin: 0;
+}

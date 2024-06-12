@@ -1,0 +1,30 @@
+.receitas {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.receita-card {
+    width: 200px;
+    background-color: #EAD8C0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: all 0.5s;
+    box-shadow: 4px 4px 5px #888;
+}
+
+.receita-card:hover {
+    transform: scale(1.1);
+}
+
+.receita-card img {
+    align-self: center;
+    border-radius: 10px;
+}
+
+.receita-card h2 {
+    align-self: center;
+}
